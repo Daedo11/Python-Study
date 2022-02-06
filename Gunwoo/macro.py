@@ -15,3 +15,6 @@ a = "my "*1000
 pyperclip.copy(a)
 #pyautogui.write(a)
 pyautogui.hotkey("command", "v")
+
+# 건우: 이 코드는 엔터코드다
+pyautogui.write("\n")
